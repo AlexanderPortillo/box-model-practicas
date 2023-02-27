@@ -1,0 +1,35 @@
+body {
+	background-color: #804674;
+}
+
+.main {
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+
+.main .header .columna,
+.main .content .columna,
+.main .content2 .columna,
+.main .footer .columna {
+	background-color: pink;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+}
+
+.header .columna {
+	width: calc(50% - 40px);
+}
+
+.content .columna {
+	width: calc(33.33% - 40px);
+}
+
+.content .columna:nth-child(5) {
+	width: calc(66.66% - 40px);
+}
+
+.footer .columna {
+	width: calc(25% - 40px);
+}
